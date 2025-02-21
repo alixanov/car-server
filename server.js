@@ -29,7 +29,7 @@ dbConfig.connectDB();
 // CORS sozlamalari
 const corsOptions = {
   origin: [
-    "https://car-spare-part-client.vercel.app/",
+    "https://car-spare-part-client.vercel.app",
     "http://localhost:3001", // Backend lokal
   ],
   methods: ["GET", "POST", "PUT", "DELETE"], // Ruxsat etilgan HTTP metodlar
